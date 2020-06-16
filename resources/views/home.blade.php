@@ -15,6 +15,7 @@
                     @endif
 
                     You are logged in!
+                    <p><a href="/daftar">Lihat calon santri </a></p>
                 </div>
             </div>
         </div>

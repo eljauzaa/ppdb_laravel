@@ -16,7 +16,13 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/daftar', 'DaftarController@index')->middleware('auth');
+Route::get('/daftar/create', 'DaftarController@create');
+Route::get('/daftar/{id}', 'DaftarController@show');
+Route::post('/daftar', 'DaftarController@store');
 
-Auth::routes();
+Auth::routes([
+    'register' => false
+]);
 
 Route::get('/home', 'HomeController@index')->name('home');
