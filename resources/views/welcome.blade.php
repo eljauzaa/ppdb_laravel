@@ -11,8 +11,8 @@
   </div>
   @endif
   <div class="container">
-    <h1 class="display-3">Pendaftaran santri baru</h1>
-    <p>Assalamu'alaikum, selamat datang di halaman pendaftaran santri baru albinaa tahun ajaran 2021-2022. Silahkan klik link dibawah untuk melanjutkan pendaftaran.</p>
+    <h1 class="display-5">Pendaftaran santri baru</h1>
+    <p>Assalamu'alaikum, selamat datang di halaman pendaftaran santri baru albinaa tahun ajaran 2021-2022.<br> Silahkan klik link dibawah untuk melanjutkan pendaftaran.</p>
     <p><a class="btn btn-primary btn-lg" href="/daftar/create" role="button">Daftar &raquo;</a></p>
   </div>
 </div>

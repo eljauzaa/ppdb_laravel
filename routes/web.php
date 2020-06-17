@@ -18,7 +18,7 @@ Route::get('/', function () {
 });
 Route::get('/daftar', 'DaftarController@index')->middleware('auth');
 Route::get('/daftar/create', 'DaftarController@create');
-Route::get('/daftar/{id}', 'DaftarController@show');
+Route::get('/daftar/{id}', 'DaftarController@show')->middleware('auth');
 Route::post('/daftar', 'DaftarController@store');
 
 Auth::routes([
